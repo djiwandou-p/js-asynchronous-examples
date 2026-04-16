@@ -19,7 +19,7 @@ const steps = transactionSteps();
         "Content-Type": "application/json"
     };
 
-    const apiUrl = "https://petstore.swagger.io/v2/pet/1";
+    const apiUrl = "https://petstore.swagger.io/v2/pet/4";
 
     console.log(steps.next().value);
 
